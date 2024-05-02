@@ -11,9 +11,9 @@ import time
 import os
 
 
-google_api_key = os.getenv('Google_API_key')   # YOUR GOOGLE API KEY (can be created in Google cloud console)
+google_api_key = os.environ.get('Google_API_key')   # YOUR GOOGLE API KEY (can be created in Google cloud console)
 google_engine_index = "974f71f92973b4990"
-openai_api_key = os.getenv('OpenAI_API_key')   # YOUR OPENAI API KEY (API key creation is free, but you have to pay for using the models used in this code)
+openai_api_key = os.environ.get('OpenAI_API_key')   # YOUR OPENAI API KEY (API key creation is free, but you have to pay for using the models used in this code)
 
 import pandas as pd
 import json
