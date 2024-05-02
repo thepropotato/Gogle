@@ -1,0 +1,117 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: transparent;
+    color: rgb(120, 120, 120);
+}
+
+.container{
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
+.icons{
+    display: flex;
+    width: 40%;
+    font-size: xx-large;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "lexend deca";
+
+}
+
+.desc{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc p{
+    padding: 0% 3vw;
+    font-family: "share tech";
+}
+
+.download-icon{
+    border: 1px solid rgb(120, 120, 120);
+    border-radius: 500px;
+    height: 50vh;
+    width: 50vh;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(145, 50, 145, 0.5);
+    z-index: -1;
+}
+
+.download-icon i{
+    font-size: 150px;
+    padding-top: 30%;
+}
+
+.available, .built, .available i, .built i{
+    font-size: x-large;
+}
+
+.available, .built{
+    margin-top: 20px;
+}
+
+.desc button{
+    margin-top: 20px;
+    width: 30%;
+    height: 10%;
+    border: none;
+    background-color: rgba(145, 50, 145, 0.5);
+    font-family: "bungee hairline";
+    font-weight: bold;
+    color: rgb(170, 170, 170);
+    font-size: x-large;
+    transition: all 0.2s;
+    border-radius: 15px;
+}
+
+.desc button:hover{
+    cursor: pointer;
+    width: 60%;
+}
+
+.idontwant{
+    color: rgb(170, 170, 170); 
+    text-decoration: none; 
+    padding: 0px; 
+    margin: 0px;
+}
+
+
+@media (orientation: portrait) {
+
+    .container{
+        flex-direction: column;
+    }
+
+    .icons{
+        height: 40%;
+        width: 100%;
+    }
+
+    .download-icon i{
+        font-size: 250px;
+    }
+
+    .desc{
+        font-size: xx-large;
+        height: 60%;
+        width: 100%;
+    }
+
+    .download-icon{
+        height: 30vh;
+        width: 30vh;
+    }
+
+}

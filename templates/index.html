@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Gogle</title>
+    <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.png') }}">
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index-styles.css') }}">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!--Bungee Hairline-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap" rel="stylesheet">
+
+    <!--Share tech-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+
+    <!--lexend deca-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Share+Tech&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <script src="{{url_for('static', filename='index-scripts.js')}}"></script>
+
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=kozJMbRw"></script>
+        
+</head>
+<body>
+    
+    <div class="container"  id="page1">
+        <header>
+            <div class="header">
+                <a href="" class="logo">Gogle</a>
+                <div class="nav" id="nav">
+                    <button onclick="scrollToPage('page1')" class="hb">Gogle</button>
+                    <button onclick="scrollToPage('page2')" class="hb">Download</button>
+                    <button onclick="scrollToPage('page3')" class="hb">About</button>
+                </div>
+            </div>
+        </header>
+        <div class="index">
+            <div class="menu">
+                <div class="menu-bg">
+                    <button class="mb active" id="searchquery" onclick="toggleActive(this, 'Ask anything...', 'Summary', 'Google results', 'searchquery')">Search</button>
+                    <button class="mb" id="ytvideo" onclick="toggleActive(this, 'Enter the URL of the youtube video...', 'Summarized Transcript', 'Original Transcript', 'ytvideo')">Youtube Video</button>
+                    <button class="mb" id="webpage" onclick="toggleActive(this, 'Enter the URL of the webpage...', 'Summary', 'Webpage', 'webpage')">Web page</button>
+                </div>
+            </div>
+
+            <div class="main">
+
+                <div id="main-container" class="main-container">
+                    <h1 class="head">Gogle</h1>
+                    <form class="form">
+                        <textarea type="search" placeholder="Ask anything..." rows="1" id="query" class="query" required></textarea>
+                        <button onclick="showresults(event)" id="go" class="ignore"><i id="search" class="material-icons">send</i></button>
+                    </form>
+                </div>
+
+                <div id="result-page" class="result-page">
+                    <div class="search-row">
+                        <form id="searchform" class="form"> Gogle &nbsp;
+                            <textarea type="search" placeholder="Ask anything..." rows="1" id="results-query" class="query"></textarea>
+                            <button onclick="showresults(event)" id="go" class="ignore"><i id="search" class="material-icons">send</i></button>
+                        </form>
+                    </div>
+
+                    <div class="results-row">
+                        <div class="summary">
+                            <div class="headwithreadaloud">
+                                <h1 id="resulthead">Summary</h1>
+                                <button class="ignore" onclick="readText()"><i id="search" class="material-icons">volume_up</i></button>
+                            </div>
+                            <div id="summarized-text" class="summarized-text">
+                                <div id="summary-loading" class="loading">
+                                    <p class="load-text">G</p>
+                                </div>                             
+                            </div>
+                        </div>
+                        <div class="google-results">
+                            <h1 id="originalhead">Google results</h1>
+                            <div id="original-text" class="google-results-page">
+                                <div id="results-loading" class="loading">
+                                    <p class="load-text">G</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="note">
+                <div class="note-text">Gogle can make mistakes. Consider checking important information.</div>
+            </div>
+        </div>
+
+        <div class="download"  id="page2">
+            <iframe src="{{ url_for('home_download') }}" frameborder="0" width="100%" height="100%"></iframe>
+        </div>
+
+        <div class="about"  id="page3">
+            <iframe src="{{ url_for('home_about') }}" frameborder="0" width="100%" height="100%"></iframe>
+        </div>
+    </div>
+
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=kozJMbRw"></script>
+
+    </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/download-styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!--Share tech-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+
+    <!--Bungee Hairline-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap" rel="stylesheet">
+
+    <!--lexend deca-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Share+Tech&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="icons">
+            <div class="download-icon">
+                <i class="fa-solid fa-download"></i>
+            </div>
+            <div class="built">
+                Built with :&nbsp;
+                <i class="fa-brands fa-python"></i>
+            </div>
+            <div class="available">
+                Available on :&nbsp; 
+                <i class="fa-brands fa-windows"></i>&nbsp;
+            </div>
+    
+        </div>
+        <div class="desc">
+            <p>
+                <strong>Gogle</strong>, recognizing the popularity of <strong>command line interfaces (CLIs)</strong> among many users, now offers its services through a simple command line tool. 
+                Getting started is easy: just click the download button and you'll get a file named "Gogle.exe" on your computer. Once it's downloaded, installing it is a breeze. 
+                After that, you can start using the application by double-clicking on it. From there, you'll have access to all the services that Gogle provides, right from your command line.
+                <br><br>
+                With this tool, interacting with Gogle's services becomes straightforward and convenient. No need for complicated setups or navigating through web interfaces. 
+                Just launch the application, and you're ready to go. Whether you need to search for information, perform calculations, or manage tasks, it's all within reach with a few simple commands.
+                <br><br>
+                In essence, Gogle's CLI tool bridges the gap between traditional web interfaces and the preferences of CLI enthusiasts. 
+                It's a user-friendly solution that empowers users to access Gogle's services in a way that feels familiar and efficient. 
+                By providing this option, Gogle ensures that its services remain accessible to a wide range of users, regardless of their preferred interface.
+                <br><br>
+                <strong>Instructions for the usage of the Command Line Tool are provided within the application. Happy gogling ❤️</strong>
+            </p>
+            <button><a href="{{ url_for('static', filename='Gogle.exe') }}" download="Gogle" class="idontwant">Download</a></button>
+        </div>
+        
+    </div>
+</body>
+</html>
