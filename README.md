@@ -55,8 +55,8 @@ Once the search results are obtained, the original transcript of the video will 
 
 **Read Aloud feature :**
 
-[https://github.com/thepropotato/Gogle/blob/575dc31f0a44135ac38f2c537e35cbbd8c5911a9/readme-images/demo.mp4](https://github.com/thepropotato/Gogle/blob/575dc31f0a44135ac38f2c537e35cbbd8c5911a9/readme-images/demo.mp4
-)
+https://github.com/user-attachments/assets/8f9bd3ed-dee5-4a5f-b992-169ee0fba2c0
+
 
 
 For a better understanding of the working of the site, i have also included a loading animation video in the video.
