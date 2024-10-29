@@ -21,7 +21,7 @@ The website is built purely using Python, HTML, CSS and a bit of Javascript. The
 
 # Landing (Home) page
 
-![alt text](readme-images/home.png)
+![alt text](https://github.com/thepropotato/Gogle/blob/main/readme-images/home.png)
 
 The landing page has a header row for navigation. The buttons on the side bar (namely *Search*, *Youtube Video*, *Webpage*) are the modes of summarization Gogle offers.
 
@@ -35,7 +35,7 @@ The landing page has a header row for navigation. The buttons on the side bar (n
 
 <h3>1. Query summarization :</h3>
 
-![alt text](readme-images/query-search.png)
+![alt text](https://github.com/thepropotato/Gogle/blob/main/readme-images/query-search.png)
 
 The **Search** button will change the mode of the website to *Query Summarization*. For a demo, I've searched for one of India's top directors S.S. Rajamouli, Gogle first shows the Google results for the query and then proceeds to summarize them.
 
@@ -45,7 +45,7 @@ The **Search** button will change the mode of the website to *Query Summarizatio
 
 <h3>2. Youtube video summarization :</h3>
 
-![alt text](readme-images/youtube-video.png)
+![alt text](https://github.com/thepropotato/Gogle/blob/main/readme-images/youtube-video.png)
 
 The **Youtube video** button will change the mode of the website to *Youtube video Summarization*. To display the results, I've searched the link of the teaser of Rajinikanth's Coolie.
 
@@ -55,9 +55,9 @@ Once the search results are obtained, the original transcript of the video will 
 
 **Read Aloud feature :**
 
-<video controls>
+[<video controls>
   <source src="readme-images/demo.mp4" type="video/mp4">
-</video>
+</video>](https://github.com/thepropotato/Gogle/blob/main/readme-images/demo.mp4)
 
 For a better understanding of the working of the site, i have also included a loading animation video in the video.
 
@@ -65,7 +65,7 @@ For a better understanding of the working of the site, i have also included a lo
 
 <h3>3. Webpage summarization :</h3>
 
-![alt text](readme-images/webpage.png)
+![alt text](https://github.com/thepropotato/Gogle/blob/main/readme-images/webpage.png)
 
 The **Webpage** button will change the mode of the website to *Webpage Summarization*. I have triggered this route with the link of Wikipidea page of Mahatma Gandhi. The summary is provided on the left half, along with the original website displayed on the right half of the page.
 
@@ -73,7 +73,7 @@ The **Webpage** button will change the mode of the website to *Webpage Summariza
 
 # Download page
 
-![alt text](readme-images/download.png)
+![alt text](https://github.com/thepropotato/Gogle/blob/main/readme-images/download.png)
 
 Keeping in mind the percentage of people preferring CLIs over GUIs, We decided to provide a command line tool that does all that the website can do.
 
@@ -83,7 +83,7 @@ At this moment Gogle (CLI) is only available for windows, and will be downloaded
 
 # About page
 
-![alt text](readme-images/about.png)
+![alt text](https://github.com/thepropotato/Gogle/blob/main/readme-images/about.png)
 
 This section of the website talks about the creators and our primary aim with Gogle. You can always get in touch with us using the creator cards.
 <br>
@@ -130,10 +130,10 @@ The reason behind naming the tool Gogle is that, Google has two o's which (might
 
 # Gogle - Command Line Tool
 
-![alt text](readme-images/CLI-1.png)
+![alt text](https://github.com/thepropotato/Gogle/blob/main/readme-images/CLI-1.png)
 Upon opening the installed "Gogle.exe" file, you will find this animation.
 
-![alt text](readme-images/CLI-2.png)
+![alt text](https://github.com/thepropotato/Gogle/blob/main/readme-images/CLI-2.png)
 Immediately after which, this table of valid commands will pop up to help you get familiar with our tool.
 
 <br>
