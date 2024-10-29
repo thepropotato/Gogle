@@ -55,7 +55,7 @@ Once the search results are obtained, the original transcript of the video will 
 
 **Read Aloud feature :**
 
-[https://raw.githubusercontent.com/thepropotato/Gogle/575dc31f0a44135ac38f2c537e35cbbd8c5911a9/readme-images/demo.mp4](https://github.com/thepropotato/Gogle/blob/575dc31f0a44135ac38f2c537e35cbbd8c5911a9/readme-images/demo.mp4
+[https://github.com/thepropotato/Gogle/blob/575dc31f0a44135ac38f2c537e35cbbd8c5911a9/readme-images/demo.mp4](https://github.com/thepropotato/Gogle/blob/575dc31f0a44135ac38f2c537e35cbbd8c5911a9/readme-images/demo.mp4
 )
 
 
