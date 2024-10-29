@@ -55,9 +55,9 @@ Once the search results are obtained, the original transcript of the video will 
 
 **Read Aloud feature :**
 
-[<video controls>
-  <source src="readme-images/demo.mp4" type="video/mp4">
-</video>](https://github.com/thepropotato/Gogle/blob/main/readme-images/demo.mp4)
+<video controls>
+  <source src="https://github.com/thepropotato/Gogle/blob/main/readme-images/demo.mp4" type="video/mp4">
+</video>
 
 For a better understanding of the working of the site, i have also included a loading animation video in the video.
 
